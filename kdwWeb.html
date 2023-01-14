@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    #container {
+      width: 1200px;
+      margin: 0 auto;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    #nav-bar {
+      margin-top: 100px;
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 100px;
+    }
+
+    #nav-bar-2 {
+      display: flex;
+      font-size: 30px;
+      font-weight: bold;
+    }
+
+    .nav-bar-box {
+      margin-right: 10px;
+    }
+
+    .imgbtn {
+      width: 40px;
+      height: 40px;
+    }
+
+    .imgbtn:hover {
+      width: 50px;
+      height: 50px;
+    }
+
+    #main-content {
+      width: 100%;
+      display:flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    #content {
+      width: 80%;
+      height: 100px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    #main-image {
+      width: 20%;
+    }
+
+    #search-bar {
+      width: 60%;
+      height: 50px;
+      border: 1px solid lightgray;
+      border-radius: 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+
+    #search-img {
+      width: 30px;
+      height: 30px;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="container">
+    <h1>시험 페이지 제작 -김도원-</h1>
+    <div id="nav-bar">
+      <div id="nav-bar-1"><img src="images/name.png"></div>
+      <div id="nav-bar-2">
+        <div class="nav-bar-box">2023년</div>
+        <div class="nav-bar-box">01월</div>
+        <div class="nav-bar-box">12일</div>
+      </div>
+      <div id="nav-bar-3">
+        <a><img src="images/6.png" class="imgbtn"></a>
+        <a><img src="images/7.png" class="imgbtn"></a>
+        <a><img src="images/8.png" class="imgbtn"></a>
+      </div>
+    </div>
+  </div>
+  <div id="main-content">
+    <img id="main-image" src="images/dog.jpg"> 
+    <div id="content">
+      <div id="search-bar">
+        <div><img id="search-img" src="images/6.png"></div>
+        <div><b>검색</b></div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+
+
+
+</body>
+
+</html>
